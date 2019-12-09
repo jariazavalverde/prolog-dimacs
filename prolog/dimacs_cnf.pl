@@ -1,3 +1,13 @@
+/**
+  * 
+  * FILENAME: dimacs_cnf.pl
+  * DESCRIPTION: This module contains predicates for parsing CNF problems in DIMACS format.
+  * AUTHORS: José Antonio Riaza Valverde <riaza.valverde@gmail.com>
+  * GITHUB: https://github.com/jariazavalverde/prolog-dimacs
+  * UPDATED: 09.12.2019
+  * 
+  **/
+
 :- module(dimacs_cnf, [
 	dimacs_cnf_parse/4,
 	dimacs_cnf_read/4
